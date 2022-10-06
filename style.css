@@ -4,5 +4,6 @@ h1{
     text-align: center;
 }
 p{
-    color:red;
+    color:rgb(250, 7, 7);
+    text-align: justify;
 }
