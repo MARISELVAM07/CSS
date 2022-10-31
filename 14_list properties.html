@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>CSS</title>
+        <style>
+            html{
+               
+            }
+           ul li {
+            list-style-type: circle;
+            list-style-position: ;
+           }
+            
+               
+             ul li::before{
+                content:'';
+                display: inline-block;
+                margin-right: 10px;
+                height:15px;
+                width:10px;
+                background-image: url('jery.png');
+                background-size: cover;
+
+             }
+             #two li{
+                list-style-type: none;
+                list-style-position: inside;
+                           
+             }
+             #two li::before{
+                content:'';
+                display: inline-block;
+                margin-right: 10px;
+                height:15px;
+                width:12px;
+                background-image: url('Rose.jpg');
+                background-size: cover;
+
+             }  
+          
+
+            
+        </style>
+</head>
+<body>
+    <h1>List properties in CSS</h1>
+    <h3><u>List - 1</u></h3>
+    <ul>
+        <li>Home</li>
+        <li>Product</li>
+        <li>Blog</li>
+        <li>Downlord</li>
+        <li>Contact</li>
+    </ul>
+    <h3><u>List - 2</u></h3>
+    <ul id="two">
+        <li>Home</li>
+        <li>Product</li>
+        <li>Blog</li>
+        <li>Downlord</li>
+        <li>Contact</li>
+    </ul>
+    
+        
+</body>
+</html>
