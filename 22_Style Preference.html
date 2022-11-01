@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS</title>
+    <!-- 
+        1st Preference - #id
+        2nd Preference - .class
+        3rd Preference - Element(tag)
+
+        Suppose brake all the rules to use      ( !imporant )
+     -->
+    <style>
+        html{
+            background:coral;
+            margin: 10px;  
+        }
+        h1,h3{
+            text-decoration: underline;
+        }
+        h3{
+            color:darkcyan;
+        }
+        body{
+            color: darkblue;
+        }
+        p{
+            color: blue;
+        }
+        p{
+            color: lawngreen !important ;
+        }
+        .one p{
+            color:darkolivegreen;
+        }
+        #two{
+            color:darkturquoise
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Style Preference in CSS</h1>
+    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+<h3>Heading</h3>
+<div class="one">
+    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+    <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+    <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+    <p id="two">4. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quod perspiciatis fugiat, necessitatibus eius eveniet iure atque perferendis! Voluptatum, libero.</p>
+
+</div>
+    
+</body>
+</html>
