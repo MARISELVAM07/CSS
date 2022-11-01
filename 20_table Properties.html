@@ -5,29 +5,53 @@
     <style>
         table{
             border-collapse:separate;
+            border-radius: 2%;
         }
         table tr:nth-child(even){
             background:lightblue;
         }
+        table td:nth-of-type(even){
+            background-color: blue;
+        }
+        #one{
+            background-color: brown;
+            border-radius: 10px;
+        }
+        #two{
+            background-color: burlywood;
+        
+        }
+        #three{
+            background-color: tomato;
+            border-radius: 10px;
+        }
+        div{
+            border-style:solid;
+            
+        }
+        
+
     </style>
 </head>
 <body>
-    <h1>Table Properties in CSS</h1>
-    <table width="100%" border="5px" cellpadding="5px" cellspacing="5px">
+    <h1 align="center"><u>Table Properties in CSS</u></h1>
+    <table width="100%" border="5px"  cellpadding="5px" cellspacing="5px">
         <colgroup>
             <col style="width:50px">
             <col style="width:100px">
             <col style="width:50px">
             <col style="width:100px">
         </colgroup>
-    
-        <th colspan="4">TOP PLAYERS</th>
-    <tr>
+       
+    <th colspan="4" id="one">TOP PLAYERS</th>
+<div>
+    <tr id="two">
         <th>Sl.No.</th>
         <th>Name</th>
         <th>Age</th>
         <th>Team</th>
     </tr>
+</div>
        <tr align="center"> 
         <td >1</td>
         <td>Dhoni</td>
@@ -52,7 +76,7 @@
         <td>MI</td>
        </tr>
        <tr>
-        <th colspan="4">Prepared by Mariselvam</th>
+        <th id="three" colspan="4">Prepared by Mariselvam</th>
        </tr>
     </table>
     
