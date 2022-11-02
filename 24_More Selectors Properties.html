@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+    /************************************** 
+       1.  .class (p)   = all paragraph changed under this class
+       2.  .class (> p) = only child paragraph chages
+       3.  .class (~ p) = next to .class all are change
+       4.  .class (+p)  = immediate  next to .class if sepate paragraph there it change. 
+    *****************************************/
+
+        .one  >p{
+            color:blue;
+        }
+        /* 
+        in (div) where and all we use (class), (id) it change
+        */
+        div[class]{
+            background: red;
+        }
+        div[class="two"]{
+            color: yellow;
+        }
+        div[id]{
+            background: green;
+        }
+        a[title="link1"]{
+            background-color: blue;
+            color:red;
+        }
+        a[href]{
+            color: yellow;
+        }
+        /* 1. starting word or letter change color = (^) symbol
+           2. Ending word or letter change color = ($) symbol
+         */
+        a[href^="test"]{
+            color:red;
+        }
+        a[href$="#"]{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1>More Selectors Properties in CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, fuga.</p>
+    <div class="one">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> <p>Perspiciatis dolorum dolore voluptas similique ab harum iste ea? Natus, </p>
+        <p>recusandae autem vero architecto quaerat officiis beatae obcaecati totam sapiente voluptatem.</p>
+        <div class="two">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> <p>Perspiciatis dolorum dolore voluptas similique ab harum iste ea? Natus, </p>
+            <p>recusandae autem vero architecto quaerat officiis beatae obcaecati totam sapiente voluptatem.</p>
+
+        </div>
+    </div>
+    <div class="three">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, obcaecati.</p>
+    </div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, rem.</p>
+    <div id="one">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aliquid.</p>
+    </div>
+    
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+        <p>Perspiciatis dolorum dolore voluptas similique ab harum iste ea? Natus, </p>
+        <p>recusandae autem vero architecto quaerat officiis beatae obcaecati totam sapiente voluptatem.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+        <p>Perspiciatis dolorum dolore voluptas similique ab harum iste ea? Natus, </p>
+        <p>recusandae autem vero architecto quaerat officiis beatae obcaecati totam sapiente voluptatem.</p>
+        <div class="six">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, corrupti?
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, excepturi.</p>
+        <a href="test.html" title="link1">Link-1</a>
+        <a href="test.pdf" title="link2">Link-2</a>
+        <a href="test.png" title="link3">Link-3</a>
+        <a href="#" title="link4">Link-4</a>
+        
+
+    
+</body>
+</html>
