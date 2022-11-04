@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background: gray;
+}
+.box{
+    height:100px;
+    width:200px;
+    text-align: justify;
+    background: teal;
+    color: white;
+    margin:50px;
+    padding: 10px;
+    border: 5px double white;
+
+}
+.box p{
+    
+    
+}
