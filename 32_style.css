@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: gray;
+}
+.container{
+    background:red;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid white 5px;
+    border-radius: 10%;
+}
+p{
+    text-indent: 25px;
+    background: green;
+    color: aliceblue;
+    margin: 10px;
+    padding:10px;
+    border: dotted gold 5px;
+}
