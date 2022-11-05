@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+html{
+    height:100%;
+    width:100%;
+}
+#header{
+    background-image: repeating-conic-gradient(red,yellow,green,blue,black .01%);
+    
+    height:200px;
+    width: 100%;
+    padding: 5px;
+    background-size: cover;
+    font-size: 100px;
+    text-align:center;
+    line-height: 170px;
+    
+    
+}
+#navbar{
+    background-color: orangered;
+    height:50px;
+    width: 100%;
+    margin:inline-block;
+    position: sticky;
+    top:0;
+    
+    
+
+}
+#body{
+    width:100%;
+    padding: 10px;
+}
+#navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding:10px;
+    line-height: 30px;
+    color:white;
+    
+    
+}
+#footer{
+    background-color: yellowgreen;
+    height:50px;
+    width: 100%;
+    padding: 5px;
+}
