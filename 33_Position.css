@@ -1,0 +1,43 @@
+/* 
+1.Static -
+    (a)default position;
+    (b) not able to change left, right, top buttom)
+2.Relative - 
+    left, top, right, bottom(position changed to whole screen from the real position, real position empty);
+3.Absolute -
+   (a) left, top, right, bottom( position changed to whole screen from the real position, but real position occupied by next box) 
+   (b) parent position: relative (it changes the position with in the parent box)
+4.Fixed -
+    (a) left, top, right, bottom (position can be changed to any place in the whole screen from the real position, but the real position occupied by next box)
+    (b) parent position not able to control
+    (c) 
+
+5.Sticky
+*/
+.main{
+    position:relative;
+   
+}
+.box1{
+    position: relative;
+    left: 200px;
+  
+    
+}
+.box2{
+    position: absolute;
+    left:50px;
+    top:100px;
+  
+
+}
+.box3{
+    position: fixed;
+    top:300px;
+    left:110px;
+   
+}
+.box4{
+    position:static;
+    left:100px;
+}

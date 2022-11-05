@@ -1,0 +1,30 @@
+.main{
+    border: solid gray 5px;
+    width:500px;
+    min-height: 500px;
+    background-color:whitesmoke;
+    font-weight: bold;
+    margin:50px;
+    
+}
+.box{
+    width:100px;
+    height:100px;
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+}
+.box1{
+    background-color: turquoise;
+}
+.box2{
+    background-color:chartreuse;
+}
+.box3{
+    background-color:crimson;
+    
+
+}
+.box4{
+    background-color:orangered;
+}
