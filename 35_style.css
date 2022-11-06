@@ -1,0 +1,32 @@
+/*
+    1. Outline-Width
+    2. Outline-Style
+        solid
+        dotted
+        dashed
+        double
+        groove
+        ridge
+        inset
+        outset
+        none
+    3. outline-color
+    4. outline-offset
+ */
+ html{
+    background-color: teal;
+ }
+div{
+    height:200px;
+    width:500px;
+    border:solid red 10px;
+    padding: 10px;
+    margin: 20px;
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color:blue;
+    outline-offset: 5px;
+    border-radius: 5%;
+    outline: groove purple 20px ;
+    background-color: burlywood;
+}
