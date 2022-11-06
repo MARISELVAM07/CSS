@@ -22,7 +22,6 @@ html{
 #navbar{
     background-color: orangered;
     height:50px;
-    width: 100%;
     margin:inline-block;
     position: sticky;
     top:0;
@@ -31,9 +30,11 @@ html{
 
 }
 #body{
-    width:100%;
     padding: 10px;
+    color: blue;
+    text-align: justify;
 }
+
 #navbar ul li{
     display: inline-block;
     list-style: none;
