@@ -1,0 +1,24 @@
+div{
+    border:5px solid;
+    padding: 10px;
+    column-count: 3;
+    column-width: 100px;
+    column-gap: 30px;
+
+    column-rule-width: 5px;
+    column-rule-color: red;
+    column-rule-style: double;
+
+    column-rule: 5px blue double;
+    background-color: tomato;
+
+}
+h1{
+    column-span: all;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
