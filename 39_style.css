@@ -1,0 +1,16 @@
+div{
+    background-color: pink;
+    border:10px solid green;
+    padding: 10px;
+    overflow: scroll;
+    height:200px;
+    max-width:300px;
+
+}
+img{
+    width:120%;
+    border: groove 10px brown;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
