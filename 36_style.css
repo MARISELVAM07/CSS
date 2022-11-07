@@ -1,0 +1,10 @@
+/* 
+    upto min-height the height reduce and upto Max height the height increases
+*/
+div{
+    border: 5px solid red;
+    padding:10px;
+    min-height: 50px;
+    max-height:100px;
+    
+}
