@@ -1,0 +1,18 @@
+div{
+    background-color: tomato;
+    width:300px;
+    max-height:600px;
+    border:10px solid blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+img{
+   width:100%; 
+   opacity: 70%;
+   border:10px solid yellow;
+   box-sizing: border-box;
+   outline: 5px solid green;
+   outline-offset: 5px;
+   
+
+}
