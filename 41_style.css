@@ -2,6 +2,7 @@
     height:200px;
     width:250px;
     background-color: blue;
+    font-size: 30px;
     
 
 }
@@ -10,20 +11,54 @@
     width:50%;
     background-color: red;
     position: absolute;
-    top:0
+    top:0;
+    margin-left: auto;
+    font-size: 30px;
+    text-align: left;
+    
 }
 .parent{
     height:300px;
     width:300px;
     background-color: blue;
     position: relative;
+    font-size: 30px;
+    text-align: right;
 }
-
 
 
 .relative{
-    font-size: 1em;
+     font-size: 2em; /* system default size is 16px */
 }
 .absolute{
-    font-size: 16px;
+    font-size: 32px;
+}
+
+.paren{
+    font-size:20px;
+    
+}
+.em1{
+    font-size: 1em; /* now em1 class is under parent div tag so now the 1em is equal to parent font size now the parent font size is 20px so 1em = 20px */
+    margin-left: auto;
+    
+}
+.em2{
+    font-size: 20px;
+    margin-left: auto;
+}
+h2{
+    text-decoration:underline;
+    font-size: 30px;
+    color: green;
+    text-transform:uppercase;
+}
+h1{
+    font-size: 50px;
+    background-color: crimson;
+    width: 800px;
+    text-align: center;
+}
+h3, div{
+    margin-left: 200px;
 }
